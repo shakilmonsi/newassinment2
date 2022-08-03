@@ -1,0 +1,474 @@
+/* 1 imag ar jonn0 */
+
+.hero {
+    position: relative;
+    width: 100%;
+    /* border: 2px solid blue; */
+    width-spece: 800px;
+    border-radius: 10px;
+    padding: 15px;
+    height: 100vh;
+}
+
+/* 2 lekar jonno */
+.detel {
+    margin: 8%;
+    margin-top: 15px;
+    position: relative;
+    padding: 12px;
+    background-color: black;
+    height: 80%;
+    border-radius: 18px;
+}
+
+.detel h1 {
+    margin-top: 8%;
+    margin-left: 18px;
+    font-size: 60px;
+    color: rgb(218, 226, 231);
+    margin-bottom: 20px;
+
+}
+
+.detel p {
+    margin-top: 6%;
+    color: aliceblue;
+    line-height: 22px;
+    margin-left: 18px;
+}
+
+.detel a {
+    margin-left: 20px;
+    margin-top: 6%;
+    background: orange;
+    padding: 10px 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: aquamarine;
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+    transition: transform 0.5s, background 0.5s;
+}
+
+.motion:hover {
+    transform: scale(1.1);
+    background: red;
+}
+
+.imaes img {
+    float: left;
+    height: 95px;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: trnslsatex(-50);
+}
+
+.boy {
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-right: 100px;
+}
+
+
+
+
+.btnm {
+
+    /* margin-right: 100%; */
+
+    background-color: rgb(10, 185, 39);
+    width: 600px;
+    height: 250px;
+    margin-left: -50px;
+    border-radius: 10%;
+
+
+}
+
+.btn {
+    background-color: orange;
+
+    height: 20px;
+    width: 15%;
+
+    margin-left: -70px;
+}
+
+.a {
+
+    font-size: 18px;
+    color: white;
+
+    margin: 8%;
+    height: 100%;
+    width: 80%;
+    border-radius: 16%;
+
+}
+
+.b {
+
+    font-size: 18px;
+    height: 40px;
+    width: 80%;
+    margin: 8%;
+    border-radius: 16%;
+}
+
+
+.c {
+
+    /* 
+    font-size: 18px;
+    color: white;
+    background-color: orangered;
+    margin: 8%;
+    height: 100%;
+    width: 80%;
+    border-radius: 16%; */
+
+    background-color: orangered;
+    font-size: 18p color: rgb(0, 0, 0);
+    margin: 8%;
+    height: 100%;
+    width: 80%;
+    border-radius: 16%;
+    width: 180px;
+
+}
+
+.mt {
+    display: flex;
+}
+
+
+
+
+
+hr {
+    color: blanchedalmond;
+}
+
+.container {
+    margin-left: 5%;
+
+    padding-top: 2%;
+
+    gap: 20px;
+
+    /* 1 */
+    /* box-shadow: 2px 2px 10px darkgray; */
+
+}
+
+
+/* 
+
+.container {
+    margin-left: 5%;
+    padding-top: 2%;
+    gap: 20px;
+} */
+
+.blog-author a {
+
+
+    text-decoration: none;
+    font-size: 16px;
+    font-size: 16px;
+    color: #562EFF;
+
+}
+
+
+/*
+....... courses-style */
+.courses {
+
+    margin-left: 15%;
+
+    justify-content: center;
+    /* niche namanor jonno */
+    margin-top: -250px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+}
+
+/* / grid-column-gap: -122px; */
+
+
+.course {
+
+
+    /* v..v.v9 */
+    /* margin: 5px 100px; */
+    margin: 5px 100px;
+
+    width: 300px;
+
+    padding: 20px;
+
+    border-radius: 10px;
+
+    box-shadow: 2px 2px 10px darkgray;
+
+    text-align: center;
+
+    margin-left: -100px;
+
+
+
+
+    /* box-shadow: 2px 2px 10px darkgray; */
+    /* margin-bottom: 30px; */
+
+}
+
+.course .course-banner img {
+
+    width: 300px;
+    height: 240px;
+    justify-content: center;
+
+
+}
+
+.course-info {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.fa-solid {
+    margin-left: 30px;
+}
+
+
+/* 
+.mmmp {
+
+
+
+    font-weight: 390;
+    font-size: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+
+    gap: 10px;
+    width: 100px;
+    height: 47px;
+    margin-left: 400px;
+    top: 1944.21px;
+
+    border-radius: 6px;
+
+} */
+
+.mmm {
+
+    /* margin-left: -800px; */
+    margin-left: -400px;
+    background-color: orange;
+    padding: 12px 12px;
+    font-size: 20px;
+    box-shadow: 2px 2px 10px darkgray;
+    margin-top: 25px;
+}
+
+.baba {
+
+    padding: 12px 29px;
+    text-align: center;
+    font-size: 50px;
+    width: 1550px;
+    height: 300px;
+    left: 0px;
+    top: opx;
+
+
+    background-color: black;
+
+    background-size: 20px 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #562EFF;
+}
+
+/* .koka {
+   font-size: 20px;
+   color: beige;
+
+} */
+.ma {
+
+    position: absolute;
+    left: 21.94;
+    right: ;
+
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 24px;
+    color: azure;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 322px;
+}
+
+.ma li {
+    width: 120px;
+    list-style: none;
+}
+
+.abbu li {
+    margin-inline-end: auto;
+    display: inline-block;
+    font-size: 15px;
+    margin-top: -10px;
+}
+
+
+/* floter kaj  */
+.course-info {
+
+    / display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.fa-solid {
+
+    margin-left: 30px;
+
+
+}
+
+
+
+*/ .mama {
+    font-weight: 390;
+    font-size: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    padding: 12px 12px;
+    gap: 10px;
+    width: 100px;
+    height: 47px;
+    margin-left: 400px;
+    top: 1944.21px;
+    background-color: coral;
+    border-radius: 6px;
+}
+
+.baba {
+
+    padding: 12px 29px;
+    text-align: center;
+    font-size: 50px;
+    width: 1550px;
+    height: 300px;
+    left: 0px;
+    top: opx;
+
+
+    background-color: black;
+
+    background-size: 20px 100px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #562EFF;
+}
+
+/* tai corchilam */
+/* .koka {
+   font-size: 20px;
+   color: beige;
+
+} */
+.ma {
+
+    position: absolute;
+    left: 21.94;
+
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 24px;
+    color: azure;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 322px;
+}
+
+.ma li {
+    width: 120px;
+    list-style: none;
+}
+
+.abbu li {
+    margin-inline-end: auto;
+    display: inline-block;
+    font-size: 15px;
+    margin-top: -10px;
+    /* mabuil */
+}
+
+@media only screen and (max-width: 688px) {
+    .hero .images {
+        width: 100;
+    }
+
+    .course-banner,
+    .course,
+    {
+    grid-template-columns: repeat(1, 1fr);
+
+    .mama"{
+ display: none;
+}
+
+.btn {
+    display: flex;
+}
+
+.baba .baba {
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
+
+}
+
+@media only screen and (max-width: 688px)and(min-width; 987px) {
+    .hero {
+        width: 100;
+    }
+
+    .course-banner,
+    .course,
+    {
+    grid-template-columns: repeat(2, 1fr);
+
+
+}
+
+.btn {
+    display: flex;
+}
+
+.baba,
+.baba {
+    justify-content: center;
+    width: 100%;
+    height: auto;
+
+}
